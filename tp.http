@@ -1,0 +1,8 @@
+http://127.0.0.1:9000/tpfinal/list.php
+###
+POST http://127.0.0.1:9000/tpfinal/add.php
+
+###
+PUT http://127.0.0.1:9000/tpfinal/edit.php
+###
+DELETE http://127.0.0.1:9000/tpfinal/delete.php

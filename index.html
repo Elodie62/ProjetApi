@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fire Emblem</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="showAdd" onclick="showAdd()">Add your perso</button>
+      <div class="add">
+        <h1>Add your perso</h1>
+        <div class="form">
+          Id: <input type="text" id="id_input" /> Name: <input type="text" id="name_input" /> House:
+          <input type="text" id="house_input" /> Image:
+          <input type="text" id="img_input" />
+          <button class="validate" onclick="send_perso()">Add</button>
+          <button class="return" onclick="hideAddPerso()">Return</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="show">
+      <h1>Modify your perso</h1>
+      Name: <input type="text" id="edit_Name" /> House: <input type="text" id="edit_House" /> Image:
+      <input type="text" id="edit_Img" />
+      <button class="validate" onclick="edit_perso()">Validate</button>
+      <button class="return" onclick="returnHome()">Return</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

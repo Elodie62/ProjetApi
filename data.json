@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "name": "Bernadetta",
+    "house": "Black eagles",
+    "imageSrc": "https://i.ibb.co/Drckvhg/Bernadetta.png"
+  },
+  { "id": "2", "name": "Eldegard", "house": "Black eagles", "imageSrc": "https://i.ibb.co/c2cJFFm/Edelgard.png" },
+  { "id": "3", "name": "Caspar", "house": "Black eagles", "imageSrc": "https://i.ibb.co/CsbHSDM/Caspar.png" },
+  { "id": "4", "name": "Hubert", "house": "Black eagle", "imageSrc": "https://i.ibb.co/0tvdBc5/Hubert.png" }
+]
